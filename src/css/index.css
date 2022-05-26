@@ -1,0 +1,42 @@
+.feedback {
+  background-color: rgb(253, 238, 252);
+}
+
+
+.main-slider-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 3rem;
+  height: 3rem;
+  border: none;
+  padding: 0;
+  z-index: 10;
+  background-color: transparent;
+}
+
+.main-prev-btn {
+  left: 0;
+}
+
+.main-next-btn {
+  right: 0;
+}
+
+
+.fade-animate {
+  animation-name: fade;
+  animation-duration: 1s;
+}
+
+@keyframes fade {
+  from {
+    x: -1000;
+    opacity: 0;
+  }
+
+  to {
+    x: 0;
+    opacity: 1;
+  }
+}
